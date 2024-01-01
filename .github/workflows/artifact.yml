@@ -29,6 +29,9 @@ jobs:
       with:
         name: hello-artifact
         path: ./artifacts
+
+    - name: Lists all content
+      run: ls -ltra
     
     - name: Display context
-      run: cat /artifacts/hello.txt
+      run: cat hello.txt
