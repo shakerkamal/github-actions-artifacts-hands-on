@@ -34,4 +34,4 @@ jobs:
       run: ls -ltra
     
     - name: Display context
-      run: cat hello.txt
+      run: cat ./artifacts/hello.txt
